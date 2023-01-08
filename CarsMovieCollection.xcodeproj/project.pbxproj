@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC7E65D32969DB0F008958FE /* CarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E65D22969DB0F008958FE /* CarsVC.swift */; };
+		FC7E65D52969DED4008958FE /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E65D42969DED4008958FE /* CarsViewController.swift */; };
 		FCEFD7542969D162006ABC32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD7532969D162006ABC32 /* AppDelegate.swift */; };
 		FCEFD7562969D162006ABC32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD7552969D162006ABC32 /* SceneDelegate.swift */; };
 		FCEFD7582969D162006ABC32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD7572969D162006ABC32 /* ViewController.swift */; };
 		FCEFD75B2969D162006ABC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD7592969D162006ABC32 /* Main.storyboard */; };
 		FCEFD75D2969D164006ABC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD75C2969D164006ABC32 /* Assets.xcassets */; };
 		FCEFD7602969D164006ABC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEFD75E2969D164006ABC32 /* LaunchScreen.storyboard */; };
+		FCEFD7682969D1BE006ABC32 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEFD7672969D1BE006ABC32 /* Cars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC7E65D22969DB0F008958FE /* CarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsVC.swift; sourceTree = "<group>"; };
+		FC7E65D42969DED4008958FE /* CarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
 		FCEFD7502969D162006ABC32 /* CarsMovieCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarsMovieCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEFD7532969D162006ABC32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCEFD7552969D162006ABC32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		FCEFD75C2969D164006ABC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCEFD75F2969D164006ABC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCEFD7612969D164006ABC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEFD7672969D1BE006ABC32 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				FCEFD7532969D162006ABC32 /* AppDelegate.swift */,
 				FCEFD7552969D162006ABC32 /* SceneDelegate.swift */,
 				FCEFD7572969D162006ABC32 /* ViewController.swift */,
+				FC7E65D42969DED4008958FE /* CarsViewController.swift */,
+				FC7E65D22969DB0F008958FE /* CarsVC.swift */,
+				FCEFD7672969D1BE006ABC32 /* Cars.swift */,
 				FCEFD7592969D162006ABC32 /* Main.storyboard */,
 				FCEFD75C2969D164006ABC32 /* Assets.xcassets */,
 				FCEFD75E2969D164006ABC32 /* LaunchScreen.storyboard */,
@@ -140,7 +149,10 @@
 			files = (
 				FCEFD7582969D162006ABC32 /* ViewController.swift in Sources */,
 				FCEFD7542969D162006ABC32 /* AppDelegate.swift in Sources */,
+				FCEFD7682969D1BE006ABC32 /* Cars.swift in Sources */,
 				FCEFD7562969D162006ABC32 /* SceneDelegate.swift in Sources */,
+				FC7E65D32969DB0F008958FE /* CarsVC.swift in Sources */,
+				FC7E65D52969DED4008958FE /* CarsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
